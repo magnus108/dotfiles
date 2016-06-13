@@ -1,0 +1,16 @@
+[user]
+	name = Magnus Møller
+	email = magnus108@me.com
+[color]
+	ui = true
+[core]
+	autocrlf = input
+	compression = 9
+[branch]
+	autosetuprebase = always
+[push]
+	default = simple
+[pull]
+	rebase = true
+[rerere]
+	enabled = true
