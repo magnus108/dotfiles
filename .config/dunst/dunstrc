@@ -1,7 +1,7 @@
 [global]
     font = Droid Sans Mono 10
     allow_markup = yes
-    format = "<b>%s</b>: %b <u>%p</u>"
+    format = "<b>%s</b> %b %p"
     alignment = right
     idle_threshold = 0
     geometry = "450x5-10+10"
