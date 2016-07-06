@@ -149,10 +149,8 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-# ~/.i3/config
-# i3 config template
-# Base16 Flat by Chris Kempson (http://chriskempson.com)
-# template by Matt Parnell, @parnmatt
+hide_edge_borders both
+focus_follows_mouse no
 
 set $base00 #2C3E50
 set $base01 #34495E
