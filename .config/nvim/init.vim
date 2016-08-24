@@ -35,12 +35,15 @@ let mapleader = ","
 
 let g:SuperTabLongestEnhanced = 1
 
-let g:EasyMotion_smartcase = 1
-let g:EasyMotion_enter_jump_first = 1
+let g:EasyMotion_do_mapping = 0
 
-map w <Plug>(easymotion-bd-jk)
-map e <Plug>(easymotion-sl)
+map w <Plug>(easymotion-j)
+map W <Plug>(easymotion-k)
+map e <Plug>(easymotion-fl)
+map E <Plug>(easymotion-Fl)
+
 map ø <Plug>(easymotion-sn)
+
 map n <Plug>(easymotion-next)
 map m <Plug>(easymotion-prev)
 
@@ -49,4 +52,3 @@ map <Down> <Nop>
 map <Left> <Nop>
 map <Right> <Nop>
 
-"todo: Easymotion/supertab implementation?
